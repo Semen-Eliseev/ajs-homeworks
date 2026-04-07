@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "**Важно**: все задачи допустимо выполнять в одном GitHub репозитории.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "rsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "ts-loader": "^9.5.7",
+    "typescript": "^6.0.2",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  }
+}
